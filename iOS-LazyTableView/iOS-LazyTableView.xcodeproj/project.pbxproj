@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC682931B5638FC00B40206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC682921B5638FC00B40206 /* main.m */; };
+		DAC682961B5638FC00B40206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC682951B5638FC00B40206 /* AppDelegate.m */; };
+		DAC682991B5638FC00B40206 /* iOS_LazyTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAC682971B5638FC00B40206 /* iOS_LazyTableView.xcdatamodeld */; };
+		DAC6829C1B5638FC00B40206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC6829B1B5638FC00B40206 /* ViewController.m */; };
+		DAC6829F1B5638FC00B40206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC6829D1B5638FC00B40206 /* Main.storyboard */; };
+		DAC682A11B5638FC00B40206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC682A01B5638FC00B40206 /* Images.xcassets */; };
+		DAC682A41B5638FC00B40206 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC682A21B5638FC00B40206 /* LaunchScreen.xib */; };
+		DAC682B01B5638FC00B40206 /* iOS_LazyTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC682AF1B5638FC00B40206 /* iOS_LazyTableViewTests.m */; };
+		DAC682BE1B5639AB00B40206 /* L3SDKLazyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC682BD1B5639AB00B40206 /* L3SDKLazyTableView.m */; };
+		DAC682C11B563BB900B40206 /* L3SDKUtilityLazyLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC682C01B563BB900B40206 /* L3SDKUtilityLazyLoad.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC682AA1B5638FC00B40206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC682851B5638FC00B40206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC6828C1B5638FC00B40206;
+			remoteInfo = "iOS-LazyTableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC6828D1B5638FC00B40206 /* iOS-LazyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LazyTableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC682911B5638FC00B40206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC682921B5638FC00B40206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAC682941B5638FC00B40206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAC682951B5638FC00B40206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAC682981B5638FC00B40206 /* iOS_LazyTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_LazyTableView.xcdatamodel; sourceTree = "<group>"; };
+		DAC6829A1B5638FC00B40206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAC6829B1B5638FC00B40206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAC6829E1B5638FC00B40206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC682A01B5638FC00B40206 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAC682A31B5638FC00B40206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAC682A91B5638FC00B40206 /* iOS-LazyTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LazyTableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC682AE1B5638FC00B40206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC682AF1B5638FC00B40206 /* iOS_LazyTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LazyTableViewTests.m; sourceTree = "<group>"; };
+		DAC682BC1B5639AB00B40206 /* L3SDKLazyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKLazyTableView.h; sourceTree = "<group>"; };
+		DAC682BD1B5639AB00B40206 /* L3SDKLazyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKLazyTableView.m; sourceTree = "<group>"; };
+		DAC682BF1B563BB900B40206 /* L3SDKUtilityLazyLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKUtilityLazyLoad.h; sourceTree = "<group>"; };
+		DAC682C01B563BB900B40206 /* L3SDKUtilityLazyLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKUtilityLazyLoad.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC6828A1B5638FC00B40206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC682A61B5638FC00B40206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC682841B5638FC00B40206 = {
+			isa = PBXGroup;
+			children = (
+				DAC6828F1B5638FC00B40206 /* iOS-LazyTableView */,
+				DAC682AC1B5638FC00B40206 /* iOS-LazyTableViewTests */,
+				DAC6828E1B5638FC00B40206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC6828E1B5638FC00B40206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC6828D1B5638FC00B40206 /* iOS-LazyTableView.app */,
+				DAC682A91B5638FC00B40206 /* iOS-LazyTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC6828F1B5638FC00B40206 /* iOS-LazyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682B91B56399300B40206 /* L3SDK */,
+				DAC682941B5638FC00B40206 /* AppDelegate.h */,
+				DAC682951B5638FC00B40206 /* AppDelegate.m */,
+				DAC6829A1B5638FC00B40206 /* ViewController.h */,
+				DAC6829B1B5638FC00B40206 /* ViewController.m */,
+				DAC6829D1B5638FC00B40206 /* Main.storyboard */,
+				DAC682A01B5638FC00B40206 /* Images.xcassets */,
+				DAC682A21B5638FC00B40206 /* LaunchScreen.xib */,
+				DAC682971B5638FC00B40206 /* iOS_LazyTableView.xcdatamodeld */,
+				DAC682901B5638FC00B40206 /* Supporting Files */,
+			);
+			path = "iOS-LazyTableView";
+			sourceTree = "<group>";
+		};
+		DAC682901B5638FC00B40206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682911B5638FC00B40206 /* Info.plist */,
+				DAC682921B5638FC00B40206 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC682AC1B5638FC00B40206 /* iOS-LazyTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682AF1B5638FC00B40206 /* iOS_LazyTableViewTests.m */,
+				DAC682AD1B5638FC00B40206 /* Supporting Files */,
+			);
+			path = "iOS-LazyTableViewTests";
+			sourceTree = "<group>";
+		};
+		DAC682AD1B5638FC00B40206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682AE1B5638FC00B40206 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC682B91B56399300B40206 /* L3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682BA1B56399300B40206 /* UIKit */,
+				DAC682BB1B56399300B40206 /* Utility */,
+			);
+			path = L3SDK;
+			sourceTree = "<group>";
+		};
+		DAC682BA1B56399300B40206 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682BC1B5639AB00B40206 /* L3SDKLazyTableView.h */,
+				DAC682BD1B5639AB00B40206 /* L3SDKLazyTableView.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DAC682BB1B56399300B40206 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DAC682BF1B563BB900B40206 /* L3SDKUtilityLazyLoad.h */,
+				DAC682C01B563BB900B40206 /* L3SDKUtilityLazyLoad.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC6828C1B5638FC00B40206 /* iOS-LazyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC682B31B5638FC00B40206 /* Build configuration list for PBXNativeTarget "iOS-LazyTableView" */;
+			buildPhases = (
+				DAC682891B5638FC00B40206 /* Sources */,
+				DAC6828A1B5638FC00B40206 /* Frameworks */,
+				DAC6828B1B5638FC00B40206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-LazyTableView";
+			productName = "iOS-LazyTableView";
+			productReference = DAC6828D1B5638FC00B40206 /* iOS-LazyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC682A81B5638FC00B40206 /* iOS-LazyTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC682B61B5638FC00B40206 /* Build configuration list for PBXNativeTarget "iOS-LazyTableViewTests" */;
+			buildPhases = (
+				DAC682A51B5638FC00B40206 /* Sources */,
+				DAC682A61B5638FC00B40206 /* Frameworks */,
+				DAC682A71B5638FC00B40206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC682AB1B5638FC00B40206 /* PBXTargetDependency */,
+			);
+			name = "iOS-LazyTableViewTests";
+			productName = "iOS-LazyTableViewTests";
+			productReference = DAC682A91B5638FC00B40206 /* iOS-LazyTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC682851B5638FC00B40206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DomenicoVacchiano;
+				TargetAttributes = {
+					DAC6828C1B5638FC00B40206 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DAC682A81B5638FC00B40206 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DAC6828C1B5638FC00B40206;
+					};
+				};
+			};
+			buildConfigurationList = DAC682881B5638FC00B40206 /* Build configuration list for PBXProject "iOS-LazyTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC682841B5638FC00B40206;
+			productRefGroup = DAC6828E1B5638FC00B40206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC6828C1B5638FC00B40206 /* iOS-LazyTableView */,
+				DAC682A81B5638FC00B40206 /* iOS-LazyTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC6828B1B5638FC00B40206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC6829F1B5638FC00B40206 /* Main.storyboard in Resources */,
+				DAC682A41B5638FC00B40206 /* LaunchScreen.xib in Resources */,
+				DAC682A11B5638FC00B40206 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC682A71B5638FC00B40206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC682891B5638FC00B40206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC682991B5638FC00B40206 /* iOS_LazyTableView.xcdatamodeld in Sources */,
+				DAC682961B5638FC00B40206 /* AppDelegate.m in Sources */,
+				DAC6829C1B5638FC00B40206 /* ViewController.m in Sources */,
+				DAC682931B5638FC00B40206 /* main.m in Sources */,
+				DAC682C11B563BB900B40206 /* L3SDKUtilityLazyLoad.m in Sources */,
+				DAC682BE1B5639AB00B40206 /* L3SDKLazyTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC682A51B5638FC00B40206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC682B01B5638FC00B40206 /* iOS_LazyTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC682AB1B5638FC00B40206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC6828C1B5638FC00B40206 /* iOS-LazyTableView */;
+			targetProxy = DAC682AA1B5638FC00B40206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC6829D1B5638FC00B40206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC6829E1B5638FC00B40206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC682A21B5638FC00B40206 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC682A31B5638FC00B40206 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC682B11B5638FC00B40206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC682B21B5638FC00B40206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC682B41B5638FC00B40206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-LazyTableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAC682B51B5638FC00B40206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-LazyTableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAC682B71B5638FC00B40206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-LazyTableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-LazyTableView.app/iOS-LazyTableView";
+			};
+			name = Debug;
+		};
+		DAC682B81B5638FC00B40206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-LazyTableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-LazyTableView.app/iOS-LazyTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC682881B5638FC00B40206 /* Build configuration list for PBXProject "iOS-LazyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC682B11B5638FC00B40206 /* Debug */,
+				DAC682B21B5638FC00B40206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC682B31B5638FC00B40206 /* Build configuration list for PBXNativeTarget "iOS-LazyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC682B41B5638FC00B40206 /* Debug */,
+				DAC682B51B5638FC00B40206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC682B61B5638FC00B40206 /* Build configuration list for PBXNativeTarget "iOS-LazyTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC682B71B5638FC00B40206 /* Debug */,
+				DAC682B81B5638FC00B40206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAC682971B5638FC00B40206 /* iOS_LazyTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAC682981B5638FC00B40206 /* iOS_LazyTableView.xcdatamodel */,
+			);
+			currentVersion = DAC682981B5638FC00B40206 /* iOS_LazyTableView.xcdatamodel */;
+			path = iOS_LazyTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAC682851B5638FC00B40206 /* Project object */;
+}
