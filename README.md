@@ -1,5 +1,5 @@
 # iOS-LazyTableView
-A subclass of the UITableView with an easy lazy loading implementation.
+A subclass of the UITableView with an easy lazy loading (infinite scroll) implementation.
 
 # How to use
 With this UITbaleView subclass, you can implement, in a very easy way, a table view with a lazy loading system when the table view is scrolling down.
