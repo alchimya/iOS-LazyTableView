@@ -72,3 +72,20 @@ delegate                      | L3SDKLazyTableViewDelegate  | gets or sets class
 @end
 ```
 
+- <b>L3SDKLazyLoadUtility</b>
+This class allows to track last item index (cursor) loaded by defining a pagse size (quantity of data to load for each request)
+
+<h5>properties</h5>
+
+  name                        |     type                    |   description    
+------------------------------| ----------------------------|--------------------------------------------------------
+isEnabled                     | BOOL                        | it allows to enable/disble lazye load
+pageSize                      | int                         | gets or sets lazy load page size
+currentCursor                 | int                         | gets last lazy load cursor
+
+<h5>methods</h5>
+  name                  |     type        |   description    
+--------------          | ----------------|-------------------------------------------------------------------
+initWithPageSize        | id              | factory initialization
+nextCursor              | int             | asks to move to next cursor
+resetCursor             | void            | reset cursor to -1
