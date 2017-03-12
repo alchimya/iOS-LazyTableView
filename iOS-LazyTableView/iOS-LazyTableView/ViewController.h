@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "L3SDKLazyTableView.h"
-@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, L3SDKLazyTableViewDelegate>
 @end
 
