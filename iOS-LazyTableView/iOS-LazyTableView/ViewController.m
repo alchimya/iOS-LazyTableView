@@ -40,7 +40,7 @@
         count++;
     }
     //set label text
-    self.itemsIndicator.text=[NSString stringWithFormat:@"%lu items loaded.",count];
+    self.itemsIndicator.text=[NSString stringWithFormat:@"%lu items loaded.",(unsigned long)count];
     
 }
 - (void)didReceiveMemoryWarning {
